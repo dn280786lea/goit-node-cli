@@ -34,7 +34,7 @@ async function invokeAction({ action, id, name, email, phone }) {
 
     case "remove":
       // ... id
-      const remove = await contacts.removeContact(options.id);
+      const remove = await contacts.removeContact(id);
       return console.log(remove);
       break;
 
