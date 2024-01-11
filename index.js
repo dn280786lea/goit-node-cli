@@ -26,7 +26,7 @@ async function invokeAction({ action, id, name, email, phone }) {
       return console.log(oneContact);
       break;
 
-    case "addContact":
+    case "add":
       // ... name email phone
       const addCont = await contacts.addContact(name, email, phone);
       return console.log(addCont);
